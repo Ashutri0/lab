@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+    
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top, #61387a, #342e8d, #5E72EB, #FF9190, #FDC094);
+    overflow: hidden;
+}
+
+nav{
+    position: relative;
+    top: 20px;
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: gilroy light;
+    width: 100%;
+    height: 80px;
+    color: rgb(0, 0, 0);
+}
+
+#aa{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+#aa #a{
+    font-size: 25px;
+    color: rgb(90, 90, 197);
+}
+
+#aa #b{
+    font-size: 25px;
+    color: rgb(189, 57, 57);
+}
+
+#aa #c{
+    font-size: 25px;
+    color: rgb(46, 150, 60);
+}
+
+#ab{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+#ac{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    width: 10%;
+}
+
+#ac #elip{
+    position: absolute;
+    top: 19%;
+    right: 2.70%;
+    width: 7%;
+    height: 60px;
+    transform: rotate(-15deg);
+    /* background-color: red; */
+    border-radius: 50%;
+    border: 1px solid rgb(158, 20, 192);
+}
+
+#cntr #gola{
+    position: absolute;
+    top: -8%;
+    left: -25%;
+    border-radius: 47%;
+    border: 3px solid rgba(26, 25, 58, 0.527);
+    z-index: 10;
+    width: 55%;
+    height: 140%;
+}
+
+#gola2{
+    position: absolute;
+    top: 6%;
+    left: 5%;
+    width: 17%;
+    height: 12%;
+    border: 2px solid rgb(185, 58, 58);
+    border-radius: 50%;
+}
+
+#cntr{
+    position: relative;
+    left: 35%;
+    top: 10%;
+    width: 40%;
+    min-height: 50vh;
+    color: azure;
+    /* background-color: yellow; */
+}
+
+#cntr h1{
+    position: absolute;
+    top: 12%;
+    left: 8%;
+    text-align: center;
+    font-size: 90px;
+    /* font-family: walter; */
+    color: rgb(235, 230, 230);
+    z-index: 20;
+    font-weight: 100;
+}
+
+#cntr p{
+    font-family: monument;
+    font-size: 8px;
+    color: rgb(19, 16, 16);
+    letter-spacing: 3px;
+    position: absolute;
+    z-index: 20;
+    top: 5%;
+    left: 21%;
+    text-align: center;
+}
+
+#leftt{
+    position: absolute;
+    font-family: monument;
+    color: rgb(160, 154, 154);
+    top: 80%;
+    left: -50%;
+    text-align: right;
+    width: 35%;
+    height: 15%;
+    z-index: 10;
+    font-size: 13px;
+}
+
+#rightt{
+    position: absolute;
+    font-family: monument;
+    font-size: 13px;
+    color: rgb(160, 154, 154);
+    top: 100%;
+    right: -35%;
+    width: 40%;
+    height: 20%;
+}
+
+#downn{
+    position: absolute;
+    top: 70%;
+    left: -8%;
+    width: 70%;
+    height: 175%;
+    /* border: 2px solid pink; */
+    background-image: url(got.jpg);
+    background-size: contain;
+    border-radius: 48%;
+}
+
+#down{
+    position: absolute;
+    top: 95%;
+    left: 22%;
+    width: 60%;
+    height: 155%;
+    background-color: rgb(61, 122, 69);
+    border-radius: 48%;
+}
+
+#cntr #cornerl{
+    position: absolute;
+    left: -99%;
+    bottom: 10%;
+    transform: rotate(90deg);
+    font-family: monument;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
+}
+
+#cntr #cornerl2{
+    position: absolute;
+    right: -80%;
+    bottom: 10%;
+    transform: rotate(-90deg);
+    font-family: monument;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 450px) {
+    /* #main{
+        min-height: 100vh;
+    } */
+    nav{
+        top: 1px;
+        padding: 0px 15px;
+        font-size: 10px;
+    }
+    nav #ab{
+        left: 38%;
+        width: 28%;
+        position: absolute;
+    }
+
+    nav #ac{
+        width: 70px;
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    nav #ac #elip{
+        transform: rotate(78deg);
+        right: 7.6%;
+    }
+
+    #cntr h1{
+        top: 12%;
+        font-size: 57px;
+        left: -65%;
+        width: 210%;
+    }
+    #cntr p{
+        font-size: 7px;
+        width: 210%;
+        left: -60%;
+    }
+
+    #cntr #gola{
+        width: 140%;
+        height: 110%;
+        left: -73%;
+    }
+
+    #cntr #gola2{
+        width: 22%;
+    }
+
+    #cntr #leftt{
+        width: 135%;
+        top: 105%;
+        left: -95%;
+        font-size: 11px;
+    }
+    #cntr #rightt{
+        width: 135%;
+        top: 133%;
+        left: 40%;
+        font-size: 11px;
+    }
+
+}    
